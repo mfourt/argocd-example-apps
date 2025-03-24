@@ -4,4 +4,7 @@ spec:
   source:
     repoURL: https://github.com/argoproj/argocd-example-apps
     targetRevision: HEAD
-_app_version: prout123
+_app_version: versionFromAppVersion
+phpfpm:
+  image:
+    tag: versionFromImageTag
